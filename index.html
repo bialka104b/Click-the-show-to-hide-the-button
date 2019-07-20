@@ -8,21 +8,16 @@ Copyright (c) 2018 by bialka104b (http://jsbin.com/bojonez/1/edit)
 
 Released under the MIT license: http://jsbin.mit-license.org
 -->
-<meta name="robots" content="noindex">
 <html>
 <head>
-<meta name="description" content="Gdy przycisk jest kliknięty pokaż lub ukryj różne części strony">
+  <meta name="robots" content="noindex">
+  <meta name="description" content="Gdy przycisk jest kliknięty pokaż lub ukryj różne części strony">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Marta Jamróz-Kulig</title>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-<style id="jsbin-css">
-
-
-
-</style>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
 </head>
 <body>
   <div class="container">
@@ -61,13 +56,13 @@ Released under the MIT license: http://jsbin.mit-license.org
       </div>
   </div>
   <script>
-  $(function(){
-    var sweter= "My new awesome content"
-    $('.panel-button').on('click', function(){
-      var panelId = $(this).attr('data-panelid');
-      $('#'+panelId).toggle();
+      $(function(){
+          var sweter= "My new awesome content";
+          $('.panel-button').on('click', function(){
+            var panelId = $(this).attr('data-panelid');
+            $('#'+panelId).toggle();
           });
-  });
+      });
   </script>
 </body>
 </html>
