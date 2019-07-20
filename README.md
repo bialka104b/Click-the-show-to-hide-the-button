@@ -1,5 +1,4 @@
 # Click the show to hide the button
 
-url JSbin: https://jsbin.com/bojonez/1 - pod tym adresem mozna sprawdzić działanie kodu
-
-Wykorzystano języki: HTML5, jQuery oraz biblioteki Bootstrap
+Preview: https://bialka104b.github.io/Click-the-show-to-hide-the-button/ 
+Used technology: HTML5, jQuery and library bootstrap
